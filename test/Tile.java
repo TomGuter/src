@@ -55,7 +55,7 @@ public class Tile {
 
         public Tile getRand() {
 
-			int sizeOfBag = getBag().size();
+			int sizeOfBag = this.size();
 			if (sizeOfBag < 1) {
 				return null;
 			}
